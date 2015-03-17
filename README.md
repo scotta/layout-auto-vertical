@@ -1,7 +1,7 @@
 layout-auto-vertical
 ====================
 
-This element merely wraps the
+This element simply wraps the
 [auto-vertical sample code](https://www.polymer-project.org/0.5/docs/polymer/layout-attrs.html) provided by the Polymer
 project for use within Meteor and other projects in general.
 
