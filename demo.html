@@ -34,25 +34,36 @@
     code {
       white-space: pre;
     }
+    layout-auto-vertical div {
+        padding: 10px;
+    }
   </style>
 </head>
 <body unresolved>
 
-<p>
-  Example:<br>
-  <code>
+
+  <h5>Example</h5><code>
 &lt;layout-auto-vertical responsiveWidth=&quot;800&quot;&gt;
-  &lt;div auto-vertical flex one&gt;layout-auto-vertical 1&lt;/div&gt;
-  &lt;div auto-vertical flex one&gt;layout-auto-vertical 2&lt;/div&gt;
-  &lt;div auto-vertical flex one&quot;&gt;layout-auto-vertical 3&lt;/div&gt;
+  &lt;div auto-vertical flex one&gt;Flex Ratio One&lt;/div&gt;
+  &lt;div auto-vertical flex two&gt;Flex Ratio Two&lt;/div&gt;
+  &lt;div auto-vertical&gt;No Flex&lt;/div&gt;
 &lt;/layout-auto-vertical&gt;
   </code>
   </p>
 
-  <layout-auto-vertical responsiveWidth="800">
-    <div auto-vertical flex one style="background-color: red; color: white;">layout-auto-vertical 1</div>
-    <div auto-vertical flex one style="background-color: green; color: white;">layout-auto-vertical 2</div>
-    <div auto-vertical flex one style="background-color: blue; color: white;">layout-auto-vertical 3</div>
+  <p>Resize the browser window to trigger the switch to a vertical layout (set at 600px).</p>
+
+  <layout-auto-vertical responsiveWidth="600">
+    <div auto-vertical flex one style="background-color: red; color: white;">Flex Ratio One</div>
+    <div auto-vertical flex two style="background-color: green; color: white;">Flex Ratio Two</div>
+    <div auto-vertical style="background-color: blue; color: white;">No Flex</div>
+  </layout-auto-vertical>
+
+  <h5>Example without any horizontal flex</h5>
+  <layout-auto-vertical responsiveWidth="600">
+      <div auto-vertical style="background-color: red; color: white;">No Flex</div>
+      <div auto-vertical style="background-color: green; color: white;">No Flex</div>
+      <div auto-vertical style="background-color: blue; color: white;">No Flex</div>
   </layout-auto-vertical>
 
 </body>
