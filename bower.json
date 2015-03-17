@@ -1,0 +1,7 @@
+{
+  "name": "layout-auto-vertical#gh-pages",
+  "private": true,
+  "dependencies": {
+    "layout-auto-vertical": "scotta/layout-auto-vertical#master"
+  }
+}
