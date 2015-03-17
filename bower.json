@@ -1,0 +1,28 @@
+{
+  "name": "layout-auto-vertical",
+  "version": "0.0.1",
+  "authors": [
+    "Andrew Scott <andrew.mark.scott@gmail.com>"
+  ],
+  "description": "Element providing a layout that switches to vertical when required.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "layout"
+  ],
+  "main": "layout-auto-vertical.html",
+  "license": "MIT",
+  "homepage": "https://github.com/scotta/layout-auto-vertical",
+  "ignore": [
+    "/.*",
+    "/tests/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.4",
+    "core-media-query": "Polymer/core-media-query#~0.5.5"
+  },
+  "devDependencies": {
+    "web-component-tester": "*"
+  }
+}
