@@ -7,7 +7,7 @@ project for use within Meteor and other projects in general.
 
 The layout switches from horizontal to vertical when the provided threshold is crossed.
 
-See the [component page](https://github.com/scotta/layout-auto-vertical) for more information.
+See the [component page](https://scotta.github.io/layout-auto-vertical) for more information.
 
 Example:
 
